@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body{
+  background-color: rgb(41, 41, 41);
+}
+/* icons */
+
+.icons{
+  display: flex;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  color:gray;
+}
+
+.fa-github{
+  font-size:22px;
+  margin-left: 5px;
+}
+
+/* card */
+
+.father{
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+}
+
+header{
+  max-height: 50px;
+  display:flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  padding: 10px;
+}
+
+.nav-father{
+  display: flex;
+  gap: 10px;
+  margin: 0;
+}
+
+.nav-card{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.nav-card li{
+  margin-left:10px;
+}
+
+.card{
+display: flex;
+width: 60%;
+height: 400px;
+background-color: rgb(1, 1, 1);
+margin-top:10%;
+color:white;
+}
+
+img{
+  width: 100px;
+}
+
+.infos{
+  display: flex;
+  margin-top: 10%;
+  width: 100%;
+}
+
+.info-son{
+  padding: 28px;
+  line-height:30px;
+}
