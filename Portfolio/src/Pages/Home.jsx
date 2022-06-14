@@ -15,7 +15,7 @@ export default class Home extends React.Component {
               <p>knowledge</p>
             </Link>
             <Link to='/contact'>
-            <p>Contact</p>
+              <p>Contact</p>
             </Link>
           </nav>
         </header>
@@ -24,6 +24,9 @@ export default class Home extends React.Component {
             <p>Hello, i am</p>
             <h1>Lucas Otoni</h1>
             <h3>Web development student at Trybe</h3>
+          </div>
+          <div className='space'></div>
+          <div className='home-right'>
             <p>Find me on</p>
             <div className='icons'>
               <a href='https://www.instagram.com/lucottoni/' target='_blank'>
