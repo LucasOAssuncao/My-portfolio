@@ -1,85 +1,117 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  font-family: 'Poppins', sans-serif;
 }
-body{
+body {
+  background-image: url('./Image/bk.jpg');
   background-color: rgb(41, 41, 41);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 /* icons */
 
-.icons{
+.icons {
   display: flex;
-  align-items: center;
+  justify-content: start;
 }
 
-a{
+.icons-contact {
+  display: flex;
+  justify-content: center;
+}
+
+a {
   text-decoration: none;
   color: white;
 }
 
-a:hover{
-  color:gray;
+a:hover {
+  color: rgb(67, 67, 67);
 }
 
-.fa-github{
-  font-size:22px;
+.fa-github {
+  font-size: 22px;
   margin-left: 5px;
 }
 
 /* card */
 
-.father{
+.father {
   display: flex;
   margin: auto;
   flex-direction: column;
 }
 
-header{
+header {
   max-height: 50px;
-  display:flex;
+  display: flex;
   justify-content: flex-end;
   margin-right: 20px;
   padding: 10px;
 }
 
-.nav-father{
+.nav-father {
   display: flex;
   gap: 10px;
   margin: 0;
 }
 
-.nav-card{
+.nav-father p:hover{
+  color: rgb(67, 67, 67);
+}
+
+.nav-card {
   display: flex;
   flex-direction: row;
   list-style: none;
 }
 
-.nav-card li{
-  margin-left:10px;
+.nav-card li {
+  margin-left: 10px;
 }
 
-.card{
-display: flex;
-width: 60%;
-height: 400px;
-background-color: rgb(1, 1, 1);
-margin-top:10%;
-color:white;
+.card {
+  display: flex;
+  width: 60%;
+  height: 400px;
+  margin-top: 10%;
+  color: white;
+  background: rgba(0, 0, 0, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(71, 72, 79, 0.315);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
-img{
-  width: 100px;
+.img img{
+  width: 200px;
+  border-radius: 150px;
 }
 
-.infos{
+.infos {
   display: flex;
   margin-top: 10%;
   width: 100%;
 }
 
-.info-son{
+.info-son {
   padding: 28px;
-  line-height:30px;
+  line-height: 30px;
+
+}
+
+/* about */
+
+.about-text{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin: auto;
+  gap: 20px;
+  padding:10%;
 }

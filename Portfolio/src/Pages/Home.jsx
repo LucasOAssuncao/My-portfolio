@@ -1,7 +1,6 @@
-import { InstagramLogo } from 'phosphor-react';
+import { GithubLogo, InstagramLogo, LinkedinLogo } from 'phosphor-react';
 import React from 'react';
-import foto2 from '../Image/foto2.jpg';
-// import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export default class Home extends React.Component {
   render() {
@@ -9,29 +8,38 @@ export default class Home extends React.Component {
       <div className='father card'>
         <header>
           <nav className='nav-father'>
-            <p>Sobre</p>
-            <p>Conhecimentos</p>
-            <p>Contato</p>
+            <Link to='/about'>
+              <p>About</p>
+            </Link>
+            <Link to='/knowledge'>
+              <p>knowledge</p>
+            </Link>
+            <Link to='/contact'>
+            <p>Contact</p>
+            </Link>
           </nav>
         </header>
         <div className='infos'>
           <div className='info-son'>
-            <p>Olá, meu nome é</p>
+            <p>Hello, i am</p>
             <h1>Lucas Otoni</h1>
-            <h3>Estudante de desenvolvimento web na Trybe</h3>
-            <p>Minhas redes:</p>
+            <h3>Web development student at Trybe</h3>
+            <p>Find me on</p>
             <div className='icons'>
               <a href='https://www.instagram.com/lucottoni/' target='_blank'>
                 <InstagramLogo size={26} />
               </a>
-              <a href='https://www.instagram.com/lucottoni/' target='_blank'>
-                <i className='fa-brands fa-github'></i>
+              <a href='https://github.com/LucasOAssuncao' target='_blank'>
+                <GithubLogo size={26} />
+              </a>
+              <a
+                href='https://www.linkedin.com/in/lucas-otoni-5300661b2/'
+                target='_blank'
+              >
+                <LinkedinLogo size={26} />
               </a>
             </div>
           </div>
-            <div>              
-                {/* <img src={foto2} /> */}
-            </div>
         </div>
       </div>
     );
