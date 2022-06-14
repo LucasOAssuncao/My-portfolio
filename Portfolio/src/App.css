@@ -73,6 +73,7 @@ a:hover {
   align-items: center;
   width: 40%;
   align-self: center;
+  font-size: 27px;
 }
 
 .space{
@@ -114,7 +115,7 @@ header {
 .card {
   display: flex;
   width: 60%;
-  height: 400px;
+  height: 30vw;
   margin-top: 10%;
   color: white;
   background: rgba(0, 0, 0, 0.25);
@@ -140,8 +141,9 @@ header {
 .info-son {
   padding: 28px;
   padding-left: 70px;
-  line-height: 30px;
-  width: 70%;
+  line-height: 60px;
+    width: 70%;
+    font-size: 28px;
 }
 
 /* about */
