@@ -1,10 +1,18 @@
 import React from 'react';
 import { GithubLogo, InstagramLogo, LinkedinLogo } from 'phosphor-react';
+import { Link } from 'react-router-dom';
 
 export default class Contact extends React.Component {
   render() {
     return (
       <div className='father card'>
+        <header>
+          <nav className='nav-father'>
+            <Link to='/'>
+              <p>Back</p>
+            </Link>
+          </nav>
+        </header>
         <div className='about-text'>
           <h1>You can find me on</h1>
           <div className='icons-contact'>
@@ -21,7 +29,10 @@ export default class Contact extends React.Component {
               <LinkedinLogo size={50} />
             </a>
           </div>
-          <p>Or you can send me an email <br/>lotoni.vivo@gmail.com</p>
+          <p>
+            Or you can send me an email <br />
+            lotoni.vivo@gmail.com
+          </p>
         </div>
       </div>
     );
