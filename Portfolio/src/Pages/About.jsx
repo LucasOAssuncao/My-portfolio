@@ -13,8 +13,8 @@ export default class About extends React.Component {conhecimento
           </nav>
         </header>
         <div className='about-text text-center flex-col content-center m-auto p-[10%] '>
-       <h1 className='mb-[5%] text-[35px]'>Lucas Otoni Assunção</h1>
-       <p className=' mb-[5%] text-[19px]'>I'm from Belo Horizonte, MG, graduated in design but now I'm in the process of changing my profession to web developer by Trybe.</p>
+       <h1 className='mb-[5%] text-[45px]'>Lucas Otoni Assunção</h1>
+       <p className=' mb-[5%] text-[29px]'>I'm from Belo Horizonte, MG, graduated in design but now I'm in the process of changing my profession to web developer by Trybe.</p>
        </div>
       </div>
     );
