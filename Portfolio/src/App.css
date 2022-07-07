@@ -1,115 +1,8 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-  font-family: 'Poppins', sans-serif;
-}
-body {
+body{
   background-image: url('./Image/bk.jpg');
   background-color: rgb(41, 41, 41);
   background-repeat: no-repeat;
   background-size: cover;
-}
-/* icons */
-
-.icons-contact {
-  display: flex;
-  justify-content: center;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-}
-
-a:hover {
-  color: rgb(67, 67, 67);
-}
-
-.fa-github {
-  font-size: 22px;
-  margin-left: 5px;
-}
-
-.know-icons{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  /* gap: 30px; */
-  height: 80%;
-}
-
-.know-icons img{
-  /* width: 80px; */
-  /* margin-left: 10px; */
-}
-
-.css{
-  width: 10rem;
-}
-.js{
-  width: 9rem;
-}
-.html{
-  width: 8.5rem;
-}
-.react{
-  width: 10rem;
-}
-
-/* card */
-
-.father {
-  display: flex;
-  margin: auto;
-  flex-direction: column;
-}
-
-.home-right{
-  display: flex;
-  flex-direction: column;
-  justify-content:center;
-  align-items: center;
-  width: 40%;
-  align-self: center;
-  font-size: 27px;
-}
-
-.space{
-  height: 12vh;
-  border-left: 1px solid white;
-  align-self: center;
-}
-
-header {
-  max-height: 50px;
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 20px;
-  padding: 10px;
-}
-
-.nav-father {
-  display: flex;
-  gap: 20px;
-  margin: 0;
-  letter-spacing: 0.1rem;
-  align-items: center;
-}
-
-.nav-father p:hover{
-  color: rgb(67, 67, 67);
-}
-
-.nav-card {
-  display: flex;
-  flex-direction: row;
-  list-style: none;
-}
-
-.nav-card li {
-  margin-left: 10px;
 }
 
 .card {
@@ -126,34 +19,15 @@ header {
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
-.img img{
-  width: 200px;
-  border-radius: 150px;
+/* .css{
+  width: 10rem;
 }
-
-.infos {
-  display: flex;
-  margin-top: 10%;
-  width: 100%;
-  justify-content:space-between;
+.js{
+  width: 9rem;
 }
-
-.info-son {
-  padding: 28px;
-  padding-left: 70px;
-  line-height: 60px;
-    width: 70%;
-    font-size: 28px;
+.html{
+  width: 8.5rem;
 }
-
-/* about */
-
-.about-text{
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  margin: auto;
-  gap: 20px;
-  padding:10%;
-}
+.react{
+  width: 10rem;
+} */
