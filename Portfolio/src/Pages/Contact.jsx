@@ -7,7 +7,7 @@ export default class Contact extends React.Component {
     return (
       <div className='father card flex-col m-auto w-[60%] h-[30vw] text-white'>
         <header className=' flex justify-end pr-[15px] pt-[5px] '>
-          <nav className='nav-father flex align-center m-0 hover:text-slate-400 tracking-widest'>
+          <nav className='text-[25px] nav-father flex align-center m-0 hover:text-slate-400 tracking-widest'>
             <Link to='/'>
               <p>Back</p>
             </Link>
@@ -16,15 +16,15 @@ export default class Contact extends React.Component {
         <div className='about-text text-center flex-col content-center m-auto'>
           <h1 className='mb-[3%] text-[45px]'>You can find me on</h1>
           <div className='icons-contact flex justify-center'>
-            <a href='https://www.instagram.com/lucottoni/' className='decoration-0 text-white hover:text-slate-400' target='_blank'>
+            <a href='https://www.instagram.com/lucottoni/' className='hover:-translate-y-1.5 decoration-0 text-white hover:text-slate-400' target='_blank'>
               <InstagramLogo size={60} />
             </a>
-            <a href='https://github.com/LucasOAssuncao' className='decoration-0 text-white hover:text-slate-400' target='_blank'>
+            <a href='https://github.com/LucasOAssuncao' className='hover:-translate-y-1.5 decoration-0 text-white hover:text-slate-400' target='_blank'>
               <GithubLogo size={60} />
             </a>
             <a
               href='https://www.linkedin.com/in/lucas-otoni-5300661b2/'
-              className='decoration-0 text-white hover:text-slate-400'
+              className='hover:-translate-y-1.5 decoration-0 text-white hover:text-slate-400'
               target='_blank'
             >
               <LinkedinLogo size={60} />
