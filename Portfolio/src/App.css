@@ -3,6 +3,7 @@ body{
   background-color: rgb(41, 41, 41);
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
 }
 
 .card {
@@ -19,15 +20,26 @@ body{
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
-/* .css{
-  width: 10rem;
+@media screen and (max-width: 360px) {
+  .card {
+    width: 100vw;
+    height: 12vw;
+    border-radius: 0px;
+  }
 }
-.js{
-  width: 9rem;
+
+@media screen and (min-width: 820px) {
+  .card {
+    width: 100vw;
+    height: 10vw;
+    border-radius: 0px;
+  }
 }
-.html{
-  width: 8.5rem;
+
+@media screen and (min-width: 1366px) {
+  .card {
+    width: 60%;
+    height: 30vw;
+    border-radius: 10px;
+  }
 }
-.react{
-  width: 10rem;
-} */
