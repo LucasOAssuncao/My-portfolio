@@ -5,11 +5,12 @@ import iconHtml from '../Image/iconHtml.svg'
 import iconCss from '../Image/iconCss.svg'
 import iconReact from '../Image/iconReact.svg'
 import iconRedux from '../Image/iconRedux.svg'
+import iconMysql from '../Image/iconMysql.svg'
+import iconDocker from '../Image/iconDocker.svg'
 import 'boxicons'
 
 
-export default class Knowledge extends React.Component {
-  render() {
+export default function Knowledge() {
     return (
       <div className='father card flex-col m-auto w-[60%] h-[30vw] text-white '>
         <header className=' flex justify-end pr-[15px] pt-[5px] '>
@@ -25,8 +26,9 @@ export default class Knowledge extends React.Component {
         <img className='css w-[87px] md:w-[110px] lg:w-[87px] xxl:w-[110px] hover:animate-bounce' src={iconCss} />
         <img className='react w-[82px] md:w-[110px] lg:w-[82px] xxl:w-[110px] hover:animate-bounce' src={iconReact} />
         <img className='react w-[70px] md:w-[90px] lg:w-[70px] xxl:w-[90px] hover:animate-bounce' src={iconRedux} />
+        <img className='react w-[70px] md:w-[90px] lg:w-[70px] xxl:w-[90px] hover:animate-bounce' src={iconMysql} />
+        <img className='react w-[75px] md:w-[90px] lg:w-[70px] xxl:w-[100px] hover:animate-bounce' src={iconDocker} />
         </div>
       </div>
     );
-  }
 }

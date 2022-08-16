@@ -1,8 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-export default class About extends React.Component {conhecimento
-  render() {
+export default function About() {
     return (
       <div className='father card flex-col m-auto w-[60%] h-[30vw] text-white'>
         <header className=' flex justify-end pr-[15px] pt-[5px] '>
@@ -13,10 +12,9 @@ export default class About extends React.Component {conhecimento
           </nav>
         </header>
         <div className='about-text text-center flex-col content-center m-auto p-[10%] lg:p-[30px] xl:p-[65px]'>
-       <h1 className='mb-[5%] sm:text-[40px] md:text-[85px] lg:text-[45px] xl:text-[55px]'>Lucas Otoni</h1>
-       <p className=' mb-[5%] sm:text-center md:text-[55px] lg:text-[29px] lg:mb-[15%] xl:text-[39px]'>I'm from Belo Horizonte, MG, graduated in design but now I'm in the process of changing my profession to web developer by Trybe.</p>
+       <h1 className='mb-[5%] sm:text-[50px] md:text-[85px] lg:text-[45px] xl:text-[55px]'>Lucas Otoni</h1>
+       <p className=' mb-[5%] sm:text-[30px] md:text-[55px] lg:text-[29px] lg:mb-[15%] xl:text-[39px]'>I'm from Belo Horizonte, MG, graduated in design but now I'm in the process of changing my profession to web developer by Trybe.</p>
        </div>
       </div>
     );
   }
-}
