@@ -7,6 +7,9 @@ import iconReact from '../Image/iconReact.svg'
 import iconRedux from '../Image/iconRedux.svg'
 import iconMysql from '../Image/iconMysql.svg'
 import iconDocker from '../Image/iconDocker.svg'
+import iconTs from '../Image/iconTs.svg'
+import iconPython from '../Image/iconPython.svg'
+import iconNode from '../Image/iconNodejs.svg'
 import 'boxicons'
 
 
@@ -20,8 +23,11 @@ export default function Knowledge() {
             </Link>
           </nav>
         </header>
-        <div className='know-icons flex flex-wrap justify-center items-center h-[80%] gap-16 sm:mt-[25%] md:mt-[15%] lg:mt-[2%]'>
+        <div className='know-icons flex flex-wrap justify-center items-center h-[80%] gap-28 sm:mt-[25%] md:mt-[15%] lg:mt-[2%]'>
         <img className='js w-[80px] md:w-[100px] lg:w-[80px] xxl:w-[100px] hover:animate-bounce' src={iconJs1} />
+        <img className='react w-[95px] md:w-[110px] lg:w-[90px] xxl:w-[110px] hover:animate-bounce' src={iconNode} />
+        <img className='react w-[75px] md:w-[90px] lg:w-[70px] xxl:w-[100px] hover:animate-bounce' src={iconTs} />
+        <img className='react w-[75px] md:w-[90px] lg:w-[70px] xxl:w-[100px] hover:animate-bounce' src={iconPython} />
         <img className='html w-[74px] md:w-[90px] lg:w-[74px] xxl:w-[95px] hover:animate-bounce' src={iconHtml} />
         <img className='css w-[87px] md:w-[110px] lg:w-[87px] xxl:w-[110px] hover:animate-bounce' src={iconCss} />
         <img className='react w-[82px] md:w-[110px] lg:w-[82px] xxl:w-[110px] hover:animate-bounce' src={iconReact} />
