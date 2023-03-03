@@ -22,7 +22,7 @@ export default function Home() {
           <div className='info-son pl-[70px] leading-[40px] sm:w-[100%] sm:p-[0] sm:text-center sm:flex sm:flex-col sm:gap-[20px] sm:pt-[50px] lg:w-[130%] lg:m-[28px] lg:ml-[90px] lg:mt-[22px] lg:text-left lg:gap-[10px] xl:mt-[10%]'>
             <p className="sm:text-[30px] sm:hidden md:block md:text-[40px] lg:text-[30px] xl:text-[35px]">Hello, i am</p>
             <h1 className="sm:text-[45px] md:text-[60px] lg:text-[50px] lg:leading-[45px] xl:text-[55px]">Lucas Otoni</h1>
-            <h3 className="sm:text-[30px] md:text-[40px] lg:text-[30px] lg:leading-[30px] xl:text-[30px] xl:leading-[40px] lg:w-[19vw]">Front-end Developer | Back-end student at Trybe</h3>
+            <h3 className="sm:text-[30px] md:text-[40px] lg:text-[30px] lg:leading-[30px] xl:text-[30px] xl:leading-[40px] lg:w-[19vw]">Full stack Developer</h3>
           </div>
           <div className='h-[12vh] self-center sm:w-[15vh] sm:h-[2px] sm:bg-white lg:w-1 lg:h-[10vh] xxl:pt-[130px]'></div>
           <div className='home-right flex-col justify-center items-center w-[40%] self-center text-[27px] text-center sm:w-[100vw] xl:pt-[90px]'>
