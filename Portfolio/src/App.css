@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
 body{
   background-image: url('./Image/bk.jpg');
   background-color: rgb(41, 41, 41);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  font-family: 'Oswald', sans-serif;
 }
 
 .card {

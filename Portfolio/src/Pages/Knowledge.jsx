@@ -23,7 +23,7 @@ export default function Knowledge() {
             </Link>
           </nav>
         </header>
-        <div className='know-icons flex flex-wrap justify-center items-center h-[80%] gap-28 sm:mt-[25%] md:mt-[15%] lg:mt-[2%]'>
+        <div className='know-icons flex flex-wrap justify-center items-center h-[80%] gap-20 sm:mt-[25%] md:mt-[15%] lg:mt-[2%]'>
         <img className='js w-[80px] md:w-[100px] lg:w-[80px] xxl:w-[100px] hover:animate-bounce' src={iconJs1} />
         <img className='react w-[95px] md:w-[110px] lg:w-[90px] xxl:w-[110px] hover:animate-bounce' src={iconNode} />
         <img className='react w-[75px] md:w-[90px] lg:w-[70px] xxl:w-[100px] hover:animate-bounce' src={iconTs} />
